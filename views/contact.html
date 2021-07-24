@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <title>Contact List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/contact.css">
+</head>
+
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Contact App</a>
+    <a class="btn btn-success" href="/logout"> Log Out </a>
+</nav>
+
+<body>
+<h1 class="text-center">Contact List<h1>
+    <br />
+  <div class="form-inline">
+          Name: <input placeholder="Name..." class="form-control" id="inputName" />
+          Phone: <input placeholder="Phone Number..." class="form-control" id="inputPhone" />
+          Email: <input placeholder="Email Address..." class="form-control" id="inputEmail" />
+          <div id="submitButtons"><button type="button" class="btn btn-info" onclick="addNewContact()">Submit</button></div>
+      </div><br />
+
+      <h3 class="text-center">My Contacts</h3>
+
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Sl No.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Email</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark Twins</td>
+            <td>9733823822</td>
+            <td>mark@mark.com</td>
+            <td>
+                <!-- Call to action buttons -->
+                <ul class="list-inline m-0">
+                    <li class="list-inline-item">
+                        <button type="button" class="btn btn-danger">Update</button>
+                    </li>
+                    <li class="list-inline-item">
+                        <button type="button" class="btn btn-warning">Delete</button>
+                    </li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jerry</td>
+            <td>7326236222</td>
+            <td>jerry@jerry.com</td>
+            <td>
+                <!-- Call to action buttons -->
+                <ul class="list-inline m-0">
+                    <li class="list-inline-item">
+                        <button type="button" class="btn btn-danger">Update</button>
+                    </li>
+                    <li class="list-inline-item">
+                        <button type="button" class="btn btn-warning">Delete</button>
+                    </li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry Clarson</td>
+            <td>3734786122</td>
+            <td>larry@larry.com</td>
+            <td>
+                <!-- Call to action buttons -->
+                <ul class="list-inline m-0">
+                    <li class="list-inline-item">
+                        <button type="button" class="btn btn-danger">Update</button>
+                    </li>
+                    <li class="list-inline-item">
+                        <button type="button" class="btn btn-warning">Delete</button>
+                    </li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Alexander Great</td>
+            <td>3734786122</td>
+            <td>great@great.com</td>
+            <td>
+                <!-- Call to action buttons -->
+                <ul class="list-inline m-0">
+                    <li class="list-inline-item">
+                        <button type="button" class="btn btn-danger">Update</button>
+                    </li>
+                    <li class="list-inline-item">
+                        <button type="button" class="btn btn-warning">Delete</button>
+                    </li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Mark Darwin</td>
+            <td>3734786122</td>
+            <td>mark@mark.com</td>
+            <td>
+                <!-- Call to action buttons -->
+                <ul class="list-inline m-0">
+                    <li class="list-inline-item">
+                        <button type="button" class="btn btn-danger">Update</button>
+                    </li>
+                    <li class="list-inline-item">
+                        <button type="button" class="btn btn-warning">Delete</button>
+                    </li>
+                </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
+
